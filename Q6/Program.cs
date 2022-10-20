@@ -17,7 +17,7 @@ namespace Q6
             DateTime dayOfNextMonth = today.AddMonths(1);
             DateTime fistdayOfNextMonth = new DateTime(today.Year, today.Month + 1, 1);
             DateTime lastdayOfThisMonth = fistdayOfNextMonth.AddDays(-1);
-            Console.WriteLine(lastdayOfThisMonth.Day);
+            
 
             string input = Console.ReadLine();
             int day = Convert.ToInt32(input);
